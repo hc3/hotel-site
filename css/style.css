@@ -1,0 +1,129 @@
+@font-face { font-family: andalemo; src: url(../fonts/andalemo.ttf); }
+@font-face { font-family: cronos; src: url(../fonts/cronos-pro-1.otf); }
+@font-face { font-family: montLight; src: url(../fonts/Montserrat-Light.otf); }
+@font-face { font-family: mont; src: url(../fonts/Montserrat-Regular.otf); }
+@font-face { font-family: openSans; src: url(../fonts/OpenSans-LightItalic.ttf); }
+
+body *{font-family: cronos !important;}
+a{text-decoration: none;}
+.fa {font-family: "Font Awesome 5 Free" !important;}
+/* Navbar */
+header{border-top: 5px solid #0a649f;}
+.navbar .nav-item{padding-left: 20px; padding-right: 20px;}
+.navbar .nav-item a{font-weight: 500; font-size: 1.3em;}
+.navbar .section-bottom{ background-color: transparent; }
+.navbar li:hover .section-bottom, .navbar li.active .section-bottom{background-color:#0a649f; width:100%; height:3px; margin-top: -10px; border-bottom-left-radius:70%; border-bottom-right-radius:70%; border-top-left-radius:70%; border-top-right-radius:70%;}
+.navbar-light .navbar-nav .nav-link{color: #333; cursor: pointer;}
+.navbar .dropdown-menu.show{background-color: #424143;}
+.navbar .dropdown-menu.show a{color: white; border-bottom: thin solid #e1e1e1;}
+.navbar .dropdown-menu.show a:hover{background-color: transparent;}
+.navbar .dropdown-menu.show a:hover i{ display: inline-block !important; padding-right: 10px; color: #0a649f;}
+
+/* General */
+.btn-transparent{border: solid 2px #f5911e; color: white; border-radius: 25px; padding: 5px 20px 5px 20px;}
+.btn-transparent:hover{color: #f5911e; background-color: white;}
+.btn-orange{background-color: #f5911e;}
+
+.section-bottom{ background-color:#0a649f; width:100%; height:5px; border-bottom-left-radius:70%; border-bottom-right-radius:70%; border-top-left-radius:70%; border-top-right-radius:70%;}
+
+.form-rounded-borded-simple{ padding: 20px;}
+.form-rounded-borded-simple button{width: 170px; height: 50px; border-radius: 25px; font-size: 1.5em; font-weight: 500;}
+.form-rounded-borded-simple, .form-rounded-borded-simple input, .form-rounded-borded-simple textarea{font-family: openSans !important; font-size: 1em; border: thin solid #696969; border-radius: 10px;}
+
+.section .box-title-section{width: 210px;}
+.section .img-rounded-cols{width: 60%;}
+.section .img-rounded-link p{color: #171717; font-size: 1.5em; font-weight: 500;}
+.section .input-rounded-withbtn{ font-family: openSans !important; font-size: 0.7em; width: 375px; height: 50px; border-radius: 25px; border: none; padding-left: 15px;}
+.section .btn-input-rounded{width: 170px; height: 50px; border-radius: 25px; font-size: 0.7em; font-weight: 500; margin-left: -85px; background-color: #f5911e;}
+
+.ul-img-icon.phone{background: url(../img/footer3.png) no-repeat center;}
+.ul-img-icon.facebook{background: url(../img/footer4.png) no-repeat center;}
+.ul-img-icon.mail{background: url(../img/footer1.png) no-repeat center;}
+.ul-img-icon.location{background: url(../img/footer2.png) no-repeat center;}
+.ul-img-icon{width: 40px; height: 40px; background-size: 40px !important;}
+
+.text-blue{color: #0a649f;}
+
+/* Carousel */
+.gallery .carousel-indicators{position: inherit; margin-left: 0px; margin-right: 0px; margin-top: 15px;}
+.gallery .carousel-indicators .indicator-item img{border: 2px solid transparent;}
+.gallery .carousel-indicators .indicator-item img:hover{border: 2px solid #0b6099; filter: brightness(0.5);}
+.gallery .carousel-control-next{right: -105px;}
+.gallery .carousel-control-prev{left: -105px;}
+.carousel-indicators .active{background-color: transparent;}
+.carousel-indicators .indicator-item.active img{border: 2px solid #0b6099; filter: brightness(0.5);}
+.carousel-indicators .indicator-item{cursor: pointer;}
+
+/* Home */
+.home .section.about{background: url(../img/bgk-01.jpg) no-repeat center; font-size: 2em;}
+.home .section.newsletter{background: url(../img/bgk-02.jpg) no-repeat center; font-size: 2em;}
+.home .section.newsletter .box-title-section{width: 260px;}
+.home .section.newsletter .box-title-section .section-bottom{background-color: #f5911e;}
+.home .section.newsletter .form-inline{width: 460px; margin: 0 auto;}
+
+.home .section.contact .form{width: 600px;}
+
+/* Quem somos */
+.about section.top{background: url(../img/top-01.jpg) no-repeat center; font-size: 2em; height: 500px;}
+
+/* Contato */
+.contact section.top{background: url(../img/top-03.jpg) no-repeat center; font-size: 2em; height: 500px;}
+
+/* Serviços */
+.services section.top{font-size: 2em; height: 500px;}
+.services.obras section.top{background: url(../img/top-02.jpg) no-repeat center;}
+.services.projetos section.top{background: url(../img/top-04.jpg) no-repeat center;}
+.services.construcoes section.top{background: url(../img/top-05.jpg) no-repeat center;}
+.services.reformas section.top{background: url(../img/top-06.jpg) no-repeat center;}
+.services.predios section.top{background: url(../img/top-07.jpg) no-repeat center;}
+.services.galpoes section.top{background: url(../img/top-08.jpg) no-repeat center;}
+.services.industrias section.top{background: url(../img/top-09.jpg) no-repeat center;}
+.services.comercios section.top{background: url(../img/top-10.jpg) no-repeat center;}
+
+/* Footer */
+.footer{background-color: #0b6099;}
+.footer .nav .nav-link{color: white;}
+
+@media only screen and ( max-device-width: 768px ){
+    /* General */
+    .flex-column{
+        flex-direction: row !important;
+    }
+
+    /* Home */
+    .home .section.about p{font-size: 0.8em;}
+}
+
+@media only screen and ( max-device-width: 425px ){
+    /* Home */
+    .home .section.about img{width: 60%;}
+    .home .section.about p{font-size: 0.5em;}
+
+    .home .section.newsletter p{font-size: 0.5em;}
+
+    .home .section.contact .form{width: 90%;}
+
+    /* General */
+    .pb-5, .py-5 {padding-bottom: 1.5rem!important;}
+    .pt-5, .py-5 {padding-top: 1.5rem!important;}
+
+    .section .img-rounded-link p{font-size: 0.8em;}
+    .section .input-rounded-withbtn{width: 200px; font-size: 0.4em; height: 30px;}
+    .section .btn-input-rounded{width: 100px; font-size: 0.4em; height: 30px;}
+    
+
+    .top{ height: 250px !important;}
+
+    /* Carousel */
+    .gallery .carousel-indicators{ margin-left: 15px; margin-right: 15px;}
+    .gallery .carousel-indicators .indicator-item{ padding: 1px;}
+    .gallery .carousel-control-next{right: 0px;}
+    .gallery .carousel-control-prev{left: 0px;}
+    .gallery .carousel-control-next .fa, .gallery .carousel-control-prev .fa{font-size: 2em;}
+
+    /* Navbar */
+    .navbar-brand img{width: 100%;}
+
+    /* Footer */
+    .footer .nav{font-size: 0.7em;}
+}
