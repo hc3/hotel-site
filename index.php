@@ -12,15 +12,6 @@
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <style type="text/css">
-    
-        #img-banner { max-width: 100%; }
-        #texto-banner { position: absolute; top: 25%; left: 15%; }
-        #texto-banner > p { color: white; line-height: 0.5; font-size:2em; }
-
-        #img-faca-reserva { width: 20% }
-    </style>
-
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
@@ -45,7 +36,16 @@
 
         <section class="section about text-center py-5">
             <div class="container">
-                <img src="img/logo-white.png" alt="">
+                <div>
+                    <div>
+                        O HOTEL
+                    </div>
+                    
+                    <div>
+                        <img src="imgs/traco.png" alt="">
+                    </div>
+                </div>
+
                 <p>
                     Com uma estrutura ampla e moderna o Granlago Hotel chega a Pouse Alegre
                     oferecendo conforto e satisfação aos seus hóspedes.
@@ -67,16 +67,16 @@
 
         <section class="section about text-center py-5">
             <div class="container">
-                <img src="imgs/o-hotel-1.jpg" alt="">
+                <img src="imgs/o-hotel-1.jpg" alt="" style="margin-bottom: 6%;">
                 <div>
-                <img src="imgs/o-hotel-2.jpg" alt="">
-                <img src="imgs/o-hotel-3.jpg" alt="">
-                <img src="imgs/o-hotel-4.jpg" alt="">
+                <img class="img-list-hotel" src="imgs/o-hotel-2.jpg" alt="">
+                <img class="img-list-hotel" src="imgs/o-hotel-3.jpg" alt="">
+                <img class="img-list-hotel" src="imgs/o-hotel-4.jpg" alt="">
                 </div>
                 <div>
-                <img src="imgs/o-hotel-5.jpg" alt="">
-                <img src="imgs/o-hotel-6.jpg" alt="">
-                <img src="imgs/o-hotel-7.jpg" alt="">
+                <img class ="img-list-hotel" src="imgs/o-hotel-5.jpg" alt="">
+                <img class ="img-list-hotel" src="imgs/o-hotel-6.jpg" alt="">
+                <img class ="img-list-hotel" src="imgs/o-hotel-7.jpg" alt="">
                 </div>
             </div>
         </section>

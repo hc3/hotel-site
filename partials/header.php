@@ -3,7 +3,7 @@
         
         <nav class="navbar navbar-expand-lg navbar-light">
 
-            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><strong></strong></span>
@@ -16,8 +16,9 @@
                         <div class="section-bottom"></div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="about.php">O HOTEL</a>
-                        <div class="section-bottom"></div>
+                        <a class="nav-link" href="about.php" style="white-space: nowrap; padding-bottom: 0;">O HOTEL
+                        </a>
+                        <img src="imgs/traco.png">
                     </li>
                     <li class="nav-item text-center">
                         <div class="dropdown">
@@ -26,7 +27,7 @@
                             </a>
                             <div class="section-bottom"></div>
                             <div class="dropdown-menu" aria-labelledby="services">
-                                <a class="dropdown-item" href="services.php"><i class="fa fa-chevron-right" style="display: none;"></i>STANDARD</a>
+                                <a class="dropdown-item" href="standard.php"><i class="fa fa-chevron-right" style="display: none;"></i>STANDARD</a>
                                 <a class="dropdown-item" href="services2.php"><i class="fa fa-chevron-right" style="display: none;"></i>Fiat</a>
                                 <a class="dropdown-item" href="services3.php"><i class="fa fa-chevron-right" style="display: none;"></i>Suite Granlago</a>
                                 <a class="dropdown-item" href="services4.php"><i class="fa fa-chevron-right" style="display: none;"></i>Luxo</a>
