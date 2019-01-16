@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Acomodações Standard</title>
+    <title>Sala de evento</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +31,7 @@
         <div>
             <img id="img-banner" src="imgs/banner-acomodacoes.png" alt="banner hotel">
             <div id="texto-banner">
-                <p>ACOMODAÇÕES.</p>
+                <p>SALA DE EVENTO</p>
             </div>
         </div>
 
@@ -41,22 +41,11 @@
 
                     <div class="col-lg-6">
 
-                        <p class="text-justify text-title">STANDARD</p>
+                        <p class="text-justify text-title">SALA DE EVENTO</p>
                         <p class="text-jusfity text-line">
                         é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido
                         </p>
-                        <div class="text-justify">
-                            <div>
-                                <span class="span-bold">Single</span> - <span>R$79,00/R$88,00</span>
-                            </div>
-                            <div>
-                                <span class="span-bold">Double Twin</span> - <span>R$142,00</span>
-                            </div>
-                            <div>
-                                <span class="span-bold">Triple</span> - <span>R$213,00</span>
-                            </div>
-                        </div>
-                        <img class="img-alternatives" src="imgs/standard.png" alt="">
+                        <p>* Confira a tarifa</p>
                         <img src="imgs/faça-sua-reserva.png" alt="">
                     </div>
                     <div class="col-lg-6">

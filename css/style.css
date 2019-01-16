@@ -18,6 +18,13 @@ header{border-top: 5px solid #3a1414;}
 #img-faca-reserva { width: 20% }
 .img-list-hotel { margin: 1% 1% 1% 1%; }
 
+#box-acomodacoes { padding-top: 6%; display: flex; }
+.acomodacoes-mini { padding-right: 11%; }
+.img-alternatives { padding-top: 7%; padding-bottom: 5%; }
+.text-justify { text-align: justify; }
+.text-title { font-weight: 700; }
+.text-line { line-height: 1.2; }
+
 .span-bold { font-weight: 900; }
 
 .navbar .nav-item{padding-left: 20px; padding-right: 20px;}

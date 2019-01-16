@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Acomodações Standard</title>
+    <title>Acomodações Flat</title>
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
@@ -41,19 +41,19 @@
 
                     <div class="col-lg-6">
 
-                        <p class="text-justify text-title">STANDARD</p>
+                        <p class="text-justify text-title">Flat</p>
                         <p class="text-jusfity text-line">
                         é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido
                         </p>
                         <div class="text-justify">
                             <div>
-                                <span class="span-bold">Single</span> - <span>R$79,00/R$88,00</span>
+                                <span class="span-bold">Single</span> - <span>R$124,00</span>
                             </div>
                             <div>
-                                <span class="span-bold">Double Twin</span> - <span>R$142,00</span>
+                                <span class="span-bold">Double Twin</span> - <span>R$169,00</span>
                             </div>
                             <div>
-                                <span class="span-bold">Triple</span> - <span>R$213,00</span>
+                                <span class="span-bold">Triple</span> - <span>R$232,00</span>
                             </div>
                         </div>
                         <img class="img-alternatives" src="imgs/standard.png" alt="">

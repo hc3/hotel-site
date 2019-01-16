@@ -28,24 +28,35 @@
                             <div class="section-bottom"></div>
                             <div class="dropdown-menu" aria-labelledby="services">
                                 <a class="dropdown-item" href="standard.php"><i class="fa fa-chevron-right" style="display: none;"></i>STANDARD</a>
-                                <a class="dropdown-item" href="services2.php"><i class="fa fa-chevron-right" style="display: none;"></i>Fiat</a>
-                                <a class="dropdown-item" href="services3.php"><i class="fa fa-chevron-right" style="display: none;"></i>Suite Granlago</a>
-                                <a class="dropdown-item" href="services4.php"><i class="fa fa-chevron-right" style="display: none;"></i>Luxo</a>
-                                <a class="dropdown-item" href="services5.php"><i class="fa fa-chevron-right" style="display: none;"></i>Luxo com Hidromassagem</a>
-                                <a class="dropdown-item" href="services6.php"><i class="fa fa-chevron-right" style="display: none;"></i>Premier</a>
+                                <a class="dropdown-item" href="flat.php"><i class="fa fa-chevron-right" style="display: none;"></i>Fiat</a>
+                                <a class="dropdown-item" href="suite.php"><i class="fa fa-chevron-right" style="display: none;"></i>Suite Granlago</a>
+                                <a class="dropdown-item" href="luxo.php"><i class="fa fa-chevron-right" style="display: none;"></i>Luxo</a>
+                                <a class="dropdown-item" href="luxochidro.php"><i class="fa fa-chevron-right" style="display: none;"></i>Luxo com Hidromassagem</a>
+                                <a class="dropdown-item" href="premier.php"><i class="fa fa-chevron-right" style="display: none;"></i>Premier</a>
                             </div>
                         </div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="contact.php">DIFERENCIAIS</a>
+                        <div class="dropdown">
+                            <a class="nav-link" id="services" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                DIFERENCIAIS
+                            </a>
+                            <div class="section-bottom"></div>
+                            <div class="dropdown-menu" aria-labelledby="services">
+                                <a class="dropdown-item" href="salaevento.php"><i class="fa fa-chevron-right" style="display: none;"></i>SALA DE EVENTO</a>
+                                <a class="dropdown-item" href="flat.php"><i class="fa fa-chevron-right" style="display: none;"></i>Kit Núpcias</a>
+                                <a class="dropdown-item" href="suite.php"><i class="fa fa-chevron-right" style="display: none;"></i>Dia da Noiva</a>
+                                <a class="dropdown-item" href="luxo.php"><i class="fa fa-chevron-right" style="display: none;"></i>Café da manhã para Família</a>
+                                <a class="dropdown-item" href="luxochidro.php"><i class="fa fa-chevron-right" style="display: none;"></i>Academia</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="reservas.php">RESERVAS</a>
                         <div class="section-bottom"></div>
                     </li>
                     <li class="nav-item text-center">
-                        <a class="nav-link" href="contact.php">RESERVAS</a>
-                        <div class="section-bottom"></div>
-                    </li>
-                    <li class="nav-item text-center">
-                        <a class="nav-link" href="contact.php">CONTATO</a>
+                        <a class="nav-link" href="contato.php">CONTATO</a>
                         <div class="section-bottom"></div>
                     </li>
                 </ul>
